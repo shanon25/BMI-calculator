@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BMI calculation</title>
+    </head>
+    <body>
+        <h2>BMI calculation</h2>
+        <script language="javascript" type="text/javascript">
+            var weight= prompt("Enter Your Weight?");
+            var height= prompt("Enter Your height?");
+            var bmi=((weight*703) / (height * height));
+            document.write("<b>Your BMI is:</b>",bmi);
+            if (30 >= bmi)
+            {
+             document.write("</br> You are under weight!!");
+            }
+             else if (25 >= bmi)
+            { 
+             document.write("</br> You are overweight!!");
+            }
+             else if (18.5 >= bmi)
+            {
+             document.write("</br> You are normal and healthy!!!");
+            }
+             else
+            {
+             documemt.write("</br> You are underweight");
+            }
+        </script>
+    </body>
+</html>
