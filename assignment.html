@@ -10,21 +10,21 @@
             var height= prompt("Enter Your height?");
             var bmi=((weight*703) / (height * height));
             document.write("<b>Your BMI is:</b>",bmi);
-            if (30 >= bmi)
+            if (18.5 >=bmi )
             {
-             document.write("</br> You are under weight!!");
+             document.write("</br></br>You are normal and healthy!!!");
             }
              else if (25 >= bmi)
             { 
-             document.write("</br> You are overweight!!");
-            }
-             else if (18.5 >= bmi)
+             document.write("</br></br> You are overweight!!");
+            } 
+             else if (30 >= bmi)
             {
-             document.write("</br> You are normal and healthy!!!");
+             document.write("</br></br>You are under weight!!");
             }
              else
             {
-             documemt.write("</br> You are underweight");
+             document.write("</br></br>You are underweight");
             }
         </script>
     </body>
